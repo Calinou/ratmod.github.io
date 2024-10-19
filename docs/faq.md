@@ -8,6 +8,7 @@ Since ioquake3 is open source there are several options. These are known to work
 - [openarena-ioq3](https://github.com/OpenArena-Ioq3/openarena-ioq3). This is a fork of ioquake3 that is pre-configured for OpenArena and keeps up to date with the ioq3 master.
 - [openarena engine](http://openarena.ws/download.php) (ioquake3+oa) (this is outdated). This is also available in various Linux distributions.
 - [fx3](https://codeberg.org/ChannelZ/fX3). Based on ioq3, with various improvements (graphics & sound options, tabbed console, etc)
+- [Quake3e](https://github.com/ec-/Quake3e). Based on ioq3, with various improvements.
 
 It is not recommended to use **yuengine**. This engine is known to produce audio and visual bugs with ratmod.
 
@@ -85,10 +86,6 @@ You may also be able to vote to toggle taunts off or on for everyone with `\cv c
 ## Why isn't `r_picmip` working?
 
 This is a client-side setting, but please remember that it can be disabled by the server configuration. For example, it is disabled in the treasure hunter game type.
-
-## Does Ratmod run on the quake3e engine?
-
-While it *may* be possible to run OA+Ratmod on quake3e, you won't be able to join any of the servers that are running on ioq3 / ioq3+oa.
 
 ## Why do I get a "Connection Interrupted" message despite having a stable connection?
 
